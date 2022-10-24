@@ -1,0 +1,199 @@
+[2022-10-03 15:49:52] [INFO    ] discord.client: logging in using static token
+[2022-10-03 15:49:53] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: d01e7218dfffb31a4608100fca2e6ace).
+[2022-10-03 16:08:11] [INFO    ] discord.client: logging in using static token
+[2022-10-03 16:08:12] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: b2a8ee4f4f389676d11c12f1dadb122b).
+[2022-10-03 16:09:57] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 92, in on_message
+    await cursor.execute(query, ctx.author.id, f"CER/{filename}.pdf")
+NameError: name 'ctx' is not defined
+[2022-10-03 16:12:04] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 93, in on_message
+    await cursor.execute(query, ctx.author.id, f"{path}")
+NameError: name 'ctx' is not defined
+[2022-10-03 16:12:11] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 93, in on_message
+    await cursor.execute(query, ctx.author.id, f"{path}")
+NameError: name 'ctx' is not defined
+[2022-10-03 16:13:11] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 76, in on_message
+    async with self.bot.db_pool.cursor as cursor:
+AttributeError: __aenter__
+[2022-10-03 16:13:26] [INFO    ] discord.client: logging in using static token
+[2022-10-03 16:13:27] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: f5a5910230426497e21ee9af302e1a15).
+[2022-10-03 16:13:34] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 98, in on_message
+    await cursor.execute(query, ctx.author.id, f"{path}")
+NameError: name 'ctx' is not defined
+[2022-10-03 16:14:01] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 99, in on_message
+    await cursor.execute(query, ctx.author.id, f"{path}")
+NameError: name 'ctx' is not defined
+[2022-10-03 16:15:35] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 98, in on_message
+    await cursor.execute(query, ctx.author.id, f"{path}")
+NameError: name 'ctx' is not defined
+[2022-10-03 16:16:42] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 98, in on_message
+    await cursor.execute(query, ctx.author.id, f"{path}")
+NameError: name 'ctx' is not defined
+[2022-10-03 16:17:26] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 99, in on_message
+    await cursor.commit()
+AttributeError: 'Cursor' object has no attribute 'commit'
+[2022-10-03 16:17:35] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 88, in on_message
+    v = ConfirmSQL()
+TypeError: ConfirmSQL.__init__() missing 1 required positional argument: 'path'
+[2022-10-03 16:17:56] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 88, in on_message
+    v = ConfirmSQL()
+TypeError: ConfirmSQL.__init__() missing 1 required positional argument: 'path'
+[2022-10-03 16:18:10] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 88, in on_message
+    v = ConfirmSQL()
+TypeError: ConfirmSQL.__init__() missing 1 required positional argument: 'path'
+[2022-10-03 16:18:28] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 88, in on_message
+    v = ConfirmSQL()
+TypeError: ConfirmSQL.__init__() missing 1 required positional argument: 'path'
+[2022-10-03 16:20:14] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 98, in on_message
+    await cursor.execute(query, message.author.id, f"{path}")
+  File "/home/yanis/.local/lib/python3.10/site-packages/asqlite/__init__.py", line 210, in execute
+    await self._post(self._cursor.execute, sql, parameters)
+  File "/home/yanis/.local/lib/python3.10/site-packages/asqlite/__init__.py", line 85, in _call_entry
+    result = entry.func(*entry.args, **entry.kwargs)
+sqlite3.IntegrityError: UNIQUE constraint failed: depot.user_id
+[2022-10-03 16:20:18] [ERROR   ] discord.ui.view: Ignoring exception in view <ConfirmSQL timeout=180.0 children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Confirmer' emoji=None row=None>
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/ui/view.py", line 425, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 38, in confirm
+    os.remove(f"{path}")
+NameError: name 'path' is not defined
+[2022-10-03 16:21:05] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 99, in on_message
+    await cursor.execute(query, message.author.id, f"{path}")
+  File "/home/yanis/.local/lib/python3.10/site-packages/asqlite/__init__.py", line 210, in execute
+    await self._post(self._cursor.execute, sql, parameters)
+  File "/home/yanis/.local/lib/python3.10/site-packages/asqlite/__init__.py", line 85, in _call_entry
+    result = entry.func(*entry.args, **entry.kwargs)
+sqlite3.IntegrityError: UNIQUE constraint failed: depot.user_id
+[2022-10-03 16:21:17] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 99, in on_message
+    await cursor.execute(query, message.author.id, f"{path}")
+  File "/home/yanis/.local/lib/python3.10/site-packages/asqlite/__init__.py", line 210, in execute
+    await self._post(self._cursor.execute, sql, parameters)
+  File "/home/yanis/.local/lib/python3.10/site-packages/asqlite/__init__.py", line 85, in _call_entry
+    result = entry.func(*entry.args, **entry.kwargs)
+sqlite3.IntegrityError: UNIQUE constraint failed: depot.user_id
+[2022-10-03 16:21:59] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 99, in on_message
+    await cursor.execute(query, message.author.id, f"{path}")
+  File "/home/yanis/.local/lib/python3.10/site-packages/asqlite/__init__.py", line 210, in execute
+    await self._post(self._cursor.execute, sql, parameters)
+  File "/home/yanis/.local/lib/python3.10/site-packages/asqlite/__init__.py", line 85, in _call_entry
+    result = entry.func(*entry.args, **entry.kwargs)
+sqlite3.IntegrityError: UNIQUE constraint failed: depot.user_id
+[2022-10-03 16:26:11] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 97, in on_message
+    await cursor.execute(query, message.author.id, f"{path}")
+  File "/home/yanis/.local/lib/python3.10/site-packages/asqlite/__init__.py", line 210, in execute
+    await self._post(self._cursor.execute, sql, parameters)
+  File "/home/yanis/.local/lib/python3.10/site-packages/asqlite/__init__.py", line 85, in _call_entry
+    result = entry.func(*entry.args, **entry.kwargs)
+sqlite3.IntegrityError: UNIQUE constraint failed: depot.user_id
+[2022-10-03 16:26:20] [ERROR   ] discord.ui.view: Ignoring exception in view <ConfirmSQL timeout=180.0 children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Confirmer' emoji=None row=None>
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/ui/view.py", line 425, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 38, in confirm
+    os.remove(f"{self.path}")
+FileNotFoundError: [Errno 2] No such file or directory: 'CER/4-Boucle_PBL.pdf'
+[2022-10-03 16:28:01] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 87, in on_message
+    if search_record[0] is not None:
+TypeError: 'NoneType' object is not subscriptable
+[2022-10-03 16:28:11] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 87, in on_message
+    if search_record[0] is not None:
+TypeError: 'NoneType' object is not subscriptable
+[2022-10-03 16:29:08] [INFO    ] discord.client: logging in using static token
+[2022-10-03 16:29:08] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: e0f68c6c64e2ec04011fbd464b77f762).
+[2022-10-03 16:29:23] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/yanis/Bureau/programmation/easy-file-management/cogs/events.py", line 87, in on_message
+    if search_record[0] is not None:
+TypeError: 'NoneType' object is not subscriptable
+[2022-10-04 15:41:40] [INFO    ] discord.client: logging in using static token
+[2022-10-04 15:41:41] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: fcd1fae6244273ad9b8b5880b2c0d15f).
+[2022-10-04 16:00:28] [ERROR   ] discord.client: Attempting a reconnect in 1.67s
+Traceback (most recent call last):
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/client.py", line 627, in connect
+    await self.ws.poll_event()
+  File "/home/yanis/.local/lib/python3.10/site-packages/discord/gateway.py", line 645, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+[2022-10-04 16:00:30] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session fcd1fae6244273ad9b8b5880b2c0d15f.
